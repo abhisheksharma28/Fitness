@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="avatar.jpg">
+	<title>Home</title>
+	<style>
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+    #myVideo 
+    {
+      right: 0;
+      bottom: 0;
+      width: 50%; 
+      height: 50%;
+      margin-top: 75px;
+      float: left;
+    }
+    .quotes
+    {
+        width: 30%;
+        float: right;
+        margin-top: 100px;
+        font-size: 23px;
+        color: green;
+        margin-right: 75px;
+    }
+    .box1
+	{
+        background-color: black;
+        padding: 1px;
+	}
+    #aa
+    {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        float: right;
+        margin-top: -200px;
+        margin-right: 150px;
+        display: block;
+    }
+    #bb
+    {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        float: right;
+        margin-top: -200px;
+        margin-right: 15px;
+    }
+    #aa:hover
+    {
+        font-size: 35px;
+        display: block;
+    }
+    #bb:hover
+    {
+        font-size: 35px;
+        display: block;
+    }
+    .box1 h1
+    {
+    	color: white;
+    	font-size: 80px;
+    	font-family: Comic Sans MS;
+    	font-style: italic;
+    	margin-left: 50px;
+    }
+    .box1 h2
+    {
+    	color: white;
+    	margin-left: 1000px;
+    	margin-top: -100px;
+    	margin-bottom: 70px;
+    	display: box;
+    	width: 25%;
+    	padding: 3px;
+    }
+    .box1 h2:hover
+    {
+    	color: black;
+    }
+    .nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-left: 3px;
+	margin-left: -10px;
+	width: 100%;
+}
+.nav ul li
+{
+	float: left;
+	width: 168.5px;
+	height: 50px;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 23px;
+}
+.nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin-top: -40px;
+	background-color: black;
+	
+
+}
+.nav ul li a:hover
+{
+	background-color: white;
+    color: black;
+}
+.nav ul li ul li
+{
+	display: none;
+}
+.nav ul li:hover ul
+{
+	margin-top:51.5px;
+	margin-left: 0px;
+	background-color: transparent;
+}
+.nav ul li:hover ul li
+{
+	margin-top: -10px;
+	display: block;
+}
+.box2
+{
+    background-color: gray;
+}
+.box2 img
+{
+    float: left;
+    height: 50px;
+    margin-left: 11%;
+}
+.bmi
+{
+    margin-top: 650px;
+}
+    .footer 
+    {
+        background-color: grey;
+        text-decoration: none;
+        color: white;
+        margin-top: 900px;
+        font-style: italic;
+        font-size: 25px;
+        padding: 20px;
+        text-align: center;
+    }
+    #ab
+    {
+        text-decoration: none;
+        color: white;
+    }
+    #ac
+    {
+        text-decoration: none;
+        color: white;
+    }
+    #ab:hover
+    {
+        text-decoration: underline;
+    }
+    #ac:hover
+    {
+        text-decoration: underline;
+    }
+    .option1 button
+    {
+        width: 27%;
+        padding: 3px;
+        background-color: #669999;
+        color: white;
+        margin-top: 100px;
+        margin-left: 50px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Cambria Math;
+        font-style: italic;
+        float: left;
+    }
+    .option1 a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    .option2 button
+    {
+        float: left;
+        width: 27%;
+        padding: 3px;
+        background-color: #669999;
+        color: white;
+        margin-top: 100px;
+        margin-left: 50px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Cambria Math;
+        font-style: italic;
+    }
+    .option2 a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    .option3 button
+    {
+        float: left;
+        width: 27%;
+        padding: 3px;
+        background-color: #669999;
+        color: white;
+        margin-top: 100px;
+        margin-left: 50px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Cambria Math;
+        font-style: italic;
+    }
+    .option3 a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    .content
+    {
+        width: 50%;
+    }
+    .content hr
+    {
+        height: 5px;
+        color: black;
+        background-color: black;
+    }
+    .content h1
+    {
+        font-weight: bolder;
+        font-size: 50px;
+        font-family: Arial;
+        font-style: italic;
+        margin-top: 850px;
+        color: red;
+    }
+    .content p
+    {
+        font-size: 35px;
+        margin-top: 50px;
+        font-style: italic;
+        float: left;
+
+    }
+    .image img
+    {
+        width: 42%;
+        margin-top: 300px;
+        border-radius: 4px;
+        border-left: 5px red solid;
+        border-bottom: 5px red solid;
+    }
+    .image p
+    {
+        font-size: 20px;
+        font-style: italic;
+    }
+    .options
+    {
+       margin-top: 550px;
+       background-color: gray;
+       background-image: url('backforbutton.jpg');
+    }
+    #oo
+    {
+        font-size: 15px;
+    }
+	</style>
+</head>
+<script>
+   
+</script>
+<body>
+<div class="box1">
+<h1><b>FITNESS</b></h1>
+<a id="aa" target="_self" href="signup.html">Login</a>
+<a id="bb" target="_self" href="login.html">Sign Up</a>
+<form>
+<h2><input style="width: 100%; border:2px solid black; height: 7%;padding: 12px 20px" type="text" placeholder="search...."></h2></form>
+   <div class="nav">
+    <ul>
+    <li><a href="fintessweb.html" target="_self">Home</a></li>
+   <li><a href="workout.html">Workout</a>
+    </li>
+      <li><a>Supplements</a>
+        <ul>
+            <li><a href="supplements.html">Protien</a></li>
+            <li><a href="ceratin.html">Creatin</a></li>
+        </ul>     
+    </li>
+    
+        </li>
+    <li><a>Features</a>
+            <ul>
+                <li><a href="bmi.html">BMI calculator</a></li>
+                <li id="oo"><a href="motivateme2.html">Motivational qoutes</a></li>
+            </ul></li>
+            <li><a>Diet</a>
+            <ul>
+                <li><a href="weightloss.html">Weight Loss</a></li>
+                <li><a href="weigthgain.html">Weight Gain</a></li>
+                <li><a href="musclebuild.html">Build Muscle</a></li>
+            </ul></li>
+            <li><a href="about.html" target=_self>About</a>
+        </li>
+    <li><a href="coming soon.html">Contact Us</a>
+        </li>
+        <li><a href="coming soon.html">Gym Near Me</a></li>
+        <li><a href="coming soon.html">Videos</a></li>
+</ul></div>
+</div>
+<div class="box2">
+    <center><img src="nike.jpg">
+    <img src="addidas.png">
+    <img src="puma.png">
+    <img src="reebok.png">
+    <img src="nivia.jpg"></center>
+
+<div class="quotes">
+“The best way to predict the future is to create it.” – Abraham Lincoln<br>
+ &nbsp<br>
+ &nbsp<br>
+ &nbsp<br>
+ &nbsp<br>
+“Respect your body. It’s the only one you get.”<br>
+ &nbsp<br>
+ &nbsp<br>
+ &nbsp<br>
+ &nbsp<br>
+“Training gives us an outlet for suppressed energies created by stress and <br>thus tones the spirit just as exercise conditions the body.”<br> 
+– Arnold Schwarzenegger
+</div></div>
+<div class="content">
+    <h1>Fitness</h1><hr>
+    <p>Fitness is defined as the quality or state of being fit. Around 1950, perhaps consistent with the Industrial Revolution and the treatise of World War II, the term "fitness" increased in western vernacular by a factor of ten. The modern definition of fitness describes either a person or machine's ability to perform a specific function or a holistic definition of human adaptability to cope with various situations. This has led to an interrelation of human fitness and attractiveness that has mobilized global fitness and fitness equipment industries. Regarding specific function, fitness is attributed to persons who possess significant aerobic or anaerobic ability, i.e. endurance or strength. A well-rounded fitness program improves a person in all aspects of fitness compared to practicing only one, such as only cardio/respiratory endurance or only weight training.
+
+A comprehensive fitness program tailored to an individual typically focuses on one or more specific skills, and on age- or health-related needs such as bone health. Many sources also cite mental, social and emotional health as an important part of overall fitness. This is often presented in textbooks as a triangle made up of three points, which represent physical, emotional, and mental fitness. Physical fitness can also prevent or treat many chronic health conditions brought on by unhealthy lifestyle or aging. Working out can also help some people sleep better and possibly alleviate some mood disorders in certain individuals.
+
+Developing research has demonstrated that many of the benefits of exercise are mediated through the role of skeletal muscle as an endocrine organ. That is, contracting muscles release multiple substances known as myokines, which promote the growth of new tissue, tissue repair, and various anti-inflammatory functions, which in turn reduce the risk of developing various inflammatory diseases.</p>
+</div>
+<div class="image">
+    <img src="fitness1.jpg">
+    <p>Physical fitness is generally achieved through exercise. Photo shows Rich Froning Jr. – four-time winner of "Fittest Man on Earth" title.</p>
+    </div>
+<div class="options">
+    <div class="option1">
+    <button><a href="bmi.html">Calculate BMI</a></button>
+    </div>
+    <div class="option2">
+    <button><a href="supplements.html">Go to shop</a></button>
+    </div>
+    <div class="option3">
+    <button><a href="motivateme2.html">Motivational qoutes</a></button>
+    </div>
+</div>
+    <div class="footer">
+    <p><a id="ab" href="#">Terms Of Service</a>||
+    <a id="ac" href="#">Policy</a>||
+    All rights are reserved.</p>
+   </div>
+</body>
+</html>
