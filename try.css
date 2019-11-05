@@ -1,0 +1,203 @@
+.box3
+    {
+    	float: left;
+    	width: 60%;
+    }
+    .box3 h2
+    {
+    	font-size: 90px;
+    	text-align: center;
+    	color: #ac3973;
+    }
+    .box3 h1
+    {
+    	font-size: 55px;
+    	font-weight: 100;
+    	color: #ff9900;
+    }
+    .box3 p
+    {
+    	font-size: 30px;
+    	font-family: Constantia;
+    	color: grey;
+    }
+    .box4 img
+    {
+    	margin-top: 350px;
+    	margin-right: -100px;
+    	border-left: 5px solid orange;
+    	border-top: 5px solid orange;
+    }
+    .box5
+    {
+    	float: left;
+    	width: 60%;
+    }
+    .box5 h1
+    {
+    	font-size: 55px;
+    	font-weight: 100;
+    	color: #ff9900;
+    }
+    .box5 p
+    {
+    	font-size: 30px;
+    	font-family: Constantia;
+    	color: grey;
+    }
+    .box6 img
+    {
+    	margin-top: 150px;
+    	margin-right: -100px;
+    	border-left: 5px solid grey;
+    	border-top: 5px solid grey;
+    }
+    .box7
+    {
+    	float: left;
+    	width: 60%;
+    }
+    .box7 h1
+    {
+    	font-size: 55px;
+    	font-weight: 100;
+    	color: #ff9900;
+    }
+    .box7 p
+    {
+    	font-size: 30px;
+    	font-family: Constantia;
+    	color: grey;
+
+    }
+    .box8 img
+    {
+    	margin-top: 100px;
+    	margin-right: -100px;
+    	border-left: 5px solid yellow;
+    	border-top: 5px solid yellow;
+    }
+    .box9
+    {
+    	float: left;
+    	width: 60%;
+    }
+    .box9 h2
+    {
+    	font-size: 100px;
+    	text-align: center;
+    	color: #ac3973;
+    }
+    .box9 h1
+    {
+    	font-size: 55px;
+    	font-weight: 100;
+    	color: #ff9900;
+    }
+    .box9 p
+    {
+    	font-size: 30px;
+    	font-family: Constantia;
+    	color: grey;
+    }
+    .box10 img
+    {
+    	margin-top: 350px;
+    	margin-right: -100px;
+    	border-left: 5px solid orange;
+    	border-top: 5px solid orange;
+    }
+    .box11
+    {
+    	float: left;
+    	width: 60%;
+    }
+    .box11 h1
+    {
+    	font-size: 55px;
+    	font-weight: 100;
+    	color: #ff9900;
+    }
+    .box11 p
+    {
+    	font-size: 30px;
+    	font-family: Constantia;
+    	color: grey;
+    }
+    .box12 img
+    {
+    	margin-top: 150px;
+    	margin-right: -100px;
+    	border-left: 5px solid grey;
+    	border-top: 5px solid grey;
+    }
+    .box13
+    {
+    	float: left;
+    	width: 60%;
+    }
+    .box13 h1
+    {
+    	font-size: 55px;
+    	font-weight: 100;
+    	color: #ff9900;
+    }
+    .box13 p
+    {
+    	font-size: 30px;
+    	font-family: Constantia;
+    	color: grey;
+
+    }
+    .box14 img
+    {
+    	margin-top: 100px;
+    	margin-right: -100px;
+    	border-left: 5px solid yellow;
+    	border-top: 5px solid yellow;
+    }
+    <!--<div class="box3">
+    <a name="chest"><h2>CHEST EXERCISES</h2><hr></a>
+    <h1>Chest Workouts for beginners:</h1>
+    <p>Ever since artistic (and admittedly nude-obsessed) Greeks and Romans took chisel to marble, a developed, well-defined chest has been a classic physical ideal. 
+    For men, muscular pectorals are a symbol of strength......</p><div id="d1"><p>Ever since artistic (and admittedly nude-obsessed) Greeks and Romans took chisel to marble, a developed, well-defined chest has been a classic physical ideal. 
+    For men, muscular pectorals are a symbol of strength</p></div>
+    <button id="toggle">More</button></div>
+ <div class="box4"> 
+    <img src="chest.jpg" width="30%" float=right></div>
+ <div class="box5">
+    <h1>Chest Workouts for Intermediate:</h1>
+    <p>Ever since artistic (and admittedly nude-obsessed) Greeks and Romans took chisel to marble, a developed, well-defined chest has been a classic physical ideal. 
+    For men, muscular pectorals are a symbol of strength......</p>
+    <input type="submit" value="More"></div>
+ <div class="box6"> 
+    <img src="chest1.jpg" width="30%" float=right></div>
+ <div class="box7">
+    <h1>Chest Workouts for Expert:</h1>
+    <p>Ever since artistic (and admittedly nude-obsessed) Greeks and Romans took chisel to marble, a developed, well-defined chest has been a classic physical ideal. 
+    For men, muscular pectorals are a symbol of strength......</p>
+    <input type="submit" value="More"></div>
+ <div class="box8"> 
+    <img src="chest2.jpg" width="30%" float=right></div>
+ <div class="box9">
+    <h2>BACK EXERCISES</h2><hr>
+    <h1>Back Workouts for beginners:</h1>
+    <p>Ever since artistic (and admittedly nude-obsessed) Greeks and Romans took chisel to marble, a developed, well-defined chest has been a classic physical ideal. 
+    For men, muscular pectorals are a symbol of strength......</p>
+    <input type="submit" value="More"></div>
+ <div class="box10"> 
+    <img src="back.jpg" width="30%" float=right></div>
+ <div class="box11">
+    <h1>Back Workouts for Intermediate:</h1>
+    <p>Ever since artistic (and admittedly nude-obsessed) Greeks and Romans took chisel to marble, a developed, well-defined chest has been a classic physical ideal. 
+    For men, muscular pectorals are a symbol of strength......</p>
+    <input type="submit" value="More" onclick="fun()"></div>
+ <div class="box12"> 
+    <img src="back2.jpg" width="30%" float=right></div>
+ <div class="box13">
+    <h1>Back Workouts for Expert:</h1>
+    <p>Ever since artistic (and admittedly nude-obsessed) Greeks and Romans took chisel to marble, a developed, well-defined chest has been a classic physical ideal. 
+    For men, muscular pectorals are a symbol of strength......</p>
+    <input type="submit" value="More"></div>
+ <div class="box14"> 
+    <img src="back3.jpg" width="30%" float=right></div> --> 
